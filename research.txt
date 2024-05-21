@@ -1,0 +1,11 @@
+1.
+    a. What is middleware
+        -Middleware là những đoạn mã trung gian nằm giữa các request và response. Nó nhận các request, thi hành các mệnh 
+        lệnh tương ứng trên request đó. Sau khi hoàn thành nó response (trả về) hoặc chuyển kết quả ủy thác cho một 
+        Middleware khác trong hàng đợi.
+
+        -Một ví dụ phổ biến mà chúng ta thường phải dùng Middleware: đó là các trang chỉ dành riêng cho admin và không cho phép
+        người dùng bình thường có thể truy cập.
+
+        - Middleware là cầu nối giữa tương tác của người dùng và hệ thống. Đóng vai trò trung gian giữa request/response 
+        và các xử lý logic bên trong web server
